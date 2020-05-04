@@ -336,8 +336,8 @@ This is probably the most popular way for airflow users to syncronize there dags
 
 ### Use init-container
 
-If you enable set `dags.init_container.enabled=true`, the pods will try upon startup to fetch the
-git repository defined by `dags.git_repo`, on branch `dags.git_branch` as DAG folder.
+If you enable set `dags.initContainer.enabled=true`, the pods will try upon startup to fetch the
+git repository defined by `dags.gitRepo`, on branch `dags.gitBranch` as DAG folder.
 
 This is the easiest way of deploying your DAGs to Airflow.
 
